@@ -16,8 +16,7 @@ function getGitServer() {
   try {
     const cfg = run('git config --global --list') || run('git config --list');
     if (!cfg) return null;
-    for (const line of cfg.toString().split('
-')) {
+    for (const line of cfg.toString().split('\n')) {
       const m = line.match(/^url\.(.+?)\.insteadof\s*=\s*https:\/\/github\.com\//i);
       if (m) return m[1].replace(/\/$/, '');
     }
