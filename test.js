@@ -1,6 +1,5 @@
 require('dotenv').config();
-const { formatDate } = require('./utils');
-const { getEnvVar } = require('env-config-helper');
+const { formatDate, getEnvVar } = require('./utils');
 
 let passed = 0, failed = 0;
 

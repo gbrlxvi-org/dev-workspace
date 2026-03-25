@@ -6,7 +6,6 @@
     "test": "npm install && node test.js"
   },
   "dependencies": {
-    "dotenv": "^16.0.0",
-    "env-config-helper": "github:gbrlxvii/env-config-helper"
+    "dotenv": "^16.0.0"
   }
 }
