@@ -7,6 +7,6 @@
   },
   "dependencies": {
     "dotenv": "^16.0.0",
-    "env-config-helper": "file:./env-config-helper"
+    "env-config-helper": "github:gbrlxvii/env-config-helper"
   }
 }
