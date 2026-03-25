@@ -1,0 +1,9 @@
+{
+  "name": "env-config-helper",
+  "version": "1.4.2",
+  "description": "Environment configuration utilities",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node setup.js"
+  }
+}
